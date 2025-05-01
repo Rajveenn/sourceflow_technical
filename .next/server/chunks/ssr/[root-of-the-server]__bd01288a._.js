@@ -1,0 +1,931 @@
+module.exports = {
+
+"[next]/internal/font/google/geist_e531dabc.module.css [app-rsc] (css module)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v({
+  "className": "geist_e531dabc-module__QGiZLq__className",
+  "variable": "geist_e531dabc-module__QGiZLq__variable",
+});
+}}),
+"[next]/internal/font/google/geist_e531dabc.js [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_e531dabc$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__ = __turbopack_context__.i("[next]/internal/font/google/geist_e531dabc.module.css [app-rsc] (css module)");
+;
+const fontData = {
+    className: __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_e531dabc$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].className,
+    style: {
+        fontFamily: "'Geist', 'Geist Fallback'",
+        fontStyle: "normal"
+    }
+};
+if (__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_e531dabc$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].variable != null) {
+    fontData.variable = __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_e531dabc$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].variable;
+}
+const __TURBOPACK__default__export__ = fontData;
+}}),
+"[next]/internal/font/google/geist_mono_68a01160.module.css [app-rsc] (css module)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v({
+  "className": "geist_mono_68a01160-module__YLcDdW__className",
+  "variable": "geist_mono_68a01160-module__YLcDdW__variable",
+});
+}}),
+"[next]/internal/font/google/geist_mono_68a01160.js [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_68a01160$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__ = __turbopack_context__.i("[next]/internal/font/google/geist_mono_68a01160.module.css [app-rsc] (css module)");
+;
+const fontData = {
+    className: __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_68a01160$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].className,
+    style: {
+        fontFamily: "'Geist Mono', 'Geist Mono Fallback'",
+        fontStyle: "normal"
+    }
+};
+if (__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_68a01160$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].variable != null) {
+    fontData.variable = __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_68a01160$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].variable;
+}
+const __TURBOPACK__default__export__ = fontData;
+}}),
+"[project]/src/components/header.tsx (client reference/proxy) <module evaluation>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server-edge.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/src/components/header.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/header.tsx <module evaluation>", "default");
+}}),
+"[project]/src/components/header.tsx (client reference/proxy)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server-edge.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/src/components/header.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/header.tsx", "default");
+}}),
+"[project]/src/components/header.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$28$client__reference$2f$proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/src/components/header.tsx (client reference/proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$28$client__reference$2f$proxy$29$__ = __turbopack_context__.i("[project]/src/components/header.tsx (client reference/proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$28$client__reference$2f$proxy$29$__);
+}}),
+"[project]/src/components/footer.tsx (client reference/proxy) <module evaluation>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server-edge.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/src/components/footer.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/footer.tsx <module evaluation>", "default");
+}}),
+"[project]/src/components/footer.tsx (client reference/proxy)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server-edge.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/src/components/footer.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/footer.tsx", "default");
+}}),
+"[project]/src/components/footer.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$28$client__reference$2f$proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/src/components/footer.tsx (client reference/proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$28$client__reference$2f$proxy$29$__ = __turbopack_context__.i("[project]/src/components/footer.tsx (client reference/proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$28$client__reference$2f$proxy$29$__);
+}}),
+"[project]/src/components/loader.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$type$2d$animation$2f$dist$2f$esm$2f$index$2e$es$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-type-animation/dist/esm/index.es.js [app-rsc] (ecmascript)");
+;
+;
+;
+// import Image from "next/image";
+const Loader = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "loader-container",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "loader-box rounded-lg",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$type$2d$animation$2f$dist$2f$esm$2f$index$2e$es$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TypeAnimation"], {
+                    style: {
+                        whiteSpace: "pre-line",
+                        display: "block"
+                    },
+                    sequence: [
+                        "Software",
+                        1200,
+                        "Software Recruitment",
+                        1200,
+                        "Software Recruitment Co.",
+                        1200,
+                        "",
+                        1200,
+                        ""
+                    ],
+                    repeat: Infinity
+                }, void 0, false, {
+                    fileName: "[project]/src/components/loader.tsx",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loading-line mt-5"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/loader.tsx",
+                    lineNumber: 25,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/loader.tsx",
+            lineNumber: 9,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/loader.tsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+};
+const __TURBOPACK__default__export__ = Loader;
+}}),
+"[project]/src/components/index.ts [app-rsc] (ecmascript) <locals>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({});
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/header.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/footer.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$loader$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/loader.tsx [app-rsc] (ecmascript)");
+;
+;
+;
+;
+}}),
+"[project]/src/components/index.ts [app-rsc] (ecmascript) <module evaluation>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({});
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/header.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/footer.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$loader$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/loader.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/src/components/index.ts [app-rsc] (ecmascript) <locals>");
+}}),
+"[project]/src/components/header.tsx [app-rsc] (ecmascript) <export default as Header>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "Header": (()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"])
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/header.tsx [app-rsc] (ecmascript)");
+}}),
+"[project]/src/components/footer.tsx [app-rsc] (ecmascript) <export default as Footer>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "Footer": (()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"])
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/footer.tsx [app-rsc] (ecmascript)");
+}}),
+"[project]/src/app/layout.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>RootLayout),
+    "metadata": (()=>metadata)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_e531dabc$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/geist_e531dabc.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_68a01160$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/geist_mono_68a01160.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/src/components/index.ts [app-rsc] (ecmascript) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Header$3e$__ = __turbopack_context__.i("[project]/src/components/header.tsx [app-rsc] (ecmascript) <export default as Header>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Footer$3e$__ = __turbopack_context__.i("[project]/src/components/footer.tsx [app-rsc] (ecmascript) <export default as Footer>");
+;
+;
+;
+;
+;
+;
+const metadata = {
+    title: "Software Recruitment Co.",
+    description: "Generated by create next app"
+};
+function RootLayout({ children }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
+        lang: "en",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
+            className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_e531dabc$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_68a01160$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} antialiased`,
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Header$3e$__["Header"], {}, void 0, false, {
+                    fileName: "[project]/src/app/layout.tsx",
+                    lineNumber: 32,
+                    columnNumber: 9
+                }, this),
+                children,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Footer$3e$__["Footer"], {}, void 0, false, {
+                    fileName: "[project]/src/app/layout.tsx",
+                    lineNumber: 34,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/layout.tsx",
+            lineNumber: 29,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/app/layout.tsx",
+        lineNumber: 28,
+        columnNumber: 5
+    }, this);
+}
+}}),
+"[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+"use strict";
+module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/module.compiled.js [app-rsc] (ecmascript)").vendored['react-rsc'].ReactJsxDevRuntime; //# sourceMappingURL=react-jsx-dev-runtime.js.map
+}}),
+"[project]/node_modules/react-type-animation/dist/esm/index.es.js [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "TypeAnimation": (()=>m)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
+;
+function i(e, t, r, n) {
+    return new (r || (r = Promise))(function(o, a) {
+        function i(e) {
+            try {
+                c(n.next(e));
+            } catch (e) {
+                a(e);
+            }
+        }
+        function u(e) {
+            try {
+                c(n.throw(e));
+            } catch (e) {
+                a(e);
+            }
+        }
+        function c(e) {
+            var t;
+            e.done ? o(e.value) : (t = e.value, t instanceof r ? t : new r(function(e) {
+                e(t);
+            })).then(i, u);
+        }
+        c((n = n.apply(e, t || [])).next());
+    });
+}
+function u(e, t) {
+    var r, n, o, a, i = {
+        label: 0,
+        sent: function() {
+            if (1 & o[0]) throw o[1];
+            return o[1];
+        },
+        trys: [],
+        ops: []
+    };
+    return a = {
+        next: u(0),
+        throw: u(1),
+        return: u(2)
+    }, "function" == typeof Symbol && (a[Symbol.iterator] = function() {
+        return this;
+    }), a;
+    "TURBOPACK unreachable";
+    function u(a) {
+        return function(u) {
+            return function(a) {
+                if (r) throw new TypeError("Generator is already executing.");
+                for(; i;)try {
+                    if (r = 1, n && (o = 2 & a[0] ? n.return : a[0] ? n.throw || ((o = n.return) && o.call(n), 0) : n.next) && !(o = o.call(n, a[1])).done) return o;
+                    switch(n = 0, o && (a = [
+                        2 & a[0],
+                        o.value
+                    ]), a[0]){
+                        case 0:
+                        case 1:
+                            o = a;
+                            break;
+                        case 4:
+                            return i.label++, {
+                                value: a[1],
+                                done: !1
+                            };
+                        case 5:
+                            i.label++, n = a[1], a = [
+                                0
+                            ];
+                            continue;
+                        case 7:
+                            a = i.ops.pop(), i.trys.pop();
+                            continue;
+                        default:
+                            if (!(o = i.trys, (o = o.length > 0 && o[o.length - 1]) || 6 !== a[0] && 2 !== a[0])) {
+                                i = 0;
+                                continue;
+                            }
+                            if (3 === a[0] && (!o || a[1] > o[0] && a[1] < o[3])) {
+                                i.label = a[1];
+                                break;
+                            }
+                            if (6 === a[0] && i.label < o[1]) {
+                                i.label = o[1], o = a;
+                                break;
+                            }
+                            if (o && i.label < o[2]) {
+                                i.label = o[2], i.ops.push(a);
+                                break;
+                            }
+                            o[2] && i.ops.pop(), i.trys.pop();
+                            continue;
+                    }
+                    a = t.call(e, i);
+                } catch (e) {
+                    a = [
+                        6,
+                        e
+                    ], n = 0;
+                } finally{
+                    r = o = 0;
+                }
+                if (5 & a[0]) throw a[1];
+                return {
+                    value: a[0] ? a[1] : void 0,
+                    done: !0
+                };
+            }([
+                a,
+                u
+            ]);
+        };
+    }
+}
+function c(e) {
+    var t = "function" == typeof Symbol && Symbol.iterator, r = t && e[t], n = 0;
+    if (r) return r.call(e);
+    if (e && "number" == typeof e.length) return {
+        next: function() {
+            return e && n >= e.length && (e = void 0), {
+                value: e && e[n++],
+                done: !e
+            };
+        }
+    };
+    throw new TypeError(t ? "Object is not iterable." : "Symbol.iterator is not defined.");
+}
+function l(e, t) {
+    var r = "function" == typeof Symbol && e[Symbol.iterator];
+    if (!r) return e;
+    var n, o, a = r.call(e), i = [];
+    try {
+        for(; (void 0 === t || t-- > 0) && !(n = a.next()).done;)i.push(n.value);
+    } catch (e) {
+        o = {
+            error: e
+        };
+    } finally{
+        try {
+            n && !n.done && (r = a.return) && r.call(a);
+        } finally{
+            if (o) throw o.error;
+        }
+    }
+    return i;
+}
+function s(e, t, r) {
+    if (r || 2 === arguments.length) for(var n, o = 0, a = t.length; o < a; o++)!n && o in t || (n || (n = Array.prototype.slice.call(t, 0, o)), n[o] = t[o]);
+    return e.concat(n || Array.prototype.slice.call(t));
+}
+function f(e, t, r, n, o) {
+    for(var a = [], f = 5; f < arguments.length; f++)a[f - 5] = arguments[f];
+    return i(this, void 0, void 0, function() {
+        var i, f, h, y, v, b;
+        return u(this, function(u) {
+            switch(u.label){
+                case 0:
+                    u.trys.push([
+                        0,
+                        12,
+                        13,
+                        14
+                    ]), i = c(a), f = i.next(), u.label = 1;
+                case 1:
+                    if (f.done) return [
+                        3,
+                        11
+                    ];
+                    switch(h = f.value, typeof h){
+                        case "string":
+                            return [
+                                3,
+                                2
+                            ];
+                        case "number":
+                            return [
+                                3,
+                                4
+                            ];
+                        case "function":
+                            return [
+                                3,
+                                6
+                            ];
+                    }
+                    return [
+                        3,
+                        8
+                    ];
+                case 2:
+                    return [
+                        4,
+                        d(e, t, h, r, n, o)
+                    ];
+                case 3:
+                    return u.sent(), [
+                        3,
+                        10
+                    ];
+                case 4:
+                    return [
+                        4,
+                        p(h)
+                    ];
+                case 5:
+                    return u.sent(), [
+                        3,
+                        10
+                    ];
+                case 6:
+                    return [
+                        4,
+                        h.apply(void 0, s([
+                            e,
+                            t,
+                            r,
+                            n,
+                            o
+                        ], l(a), !1))
+                    ];
+                case 7:
+                    return u.sent(), [
+                        3,
+                        10
+                    ];
+                case 8:
+                    return [
+                        4,
+                        h
+                    ];
+                case 9:
+                    u.sent(), u.label = 10;
+                case 10:
+                    return f = i.next(), [
+                        3,
+                        1
+                    ];
+                case 11:
+                    return [
+                        3,
+                        14
+                    ];
+                case 12:
+                    return y = u.sent(), v = {
+                        error: y
+                    }, [
+                        3,
+                        14
+                    ];
+                case 13:
+                    try {
+                        f && !f.done && (b = i.return) && b.call(i);
+                    } finally{
+                        if (v) throw v.error;
+                    }
+                    return [
+                        7
+                    ];
+                case 14:
+                    return [
+                        2
+                    ];
+            }
+        });
+    });
+}
+function d(e, t, r, n, o, a) {
+    return i(this, void 0, void 0, function() {
+        var i, c;
+        return u(this, function(u) {
+            switch(u.label){
+                case 0:
+                    return i = e.textContent || "", c = function(e, t) {
+                        var r = l(t).slice(0);
+                        return s(s([], l(e), !1), [
+                            NaN
+                        ], !1).findIndex(function(e, t) {
+                            return r[t] !== e;
+                        });
+                    }(i, r), [
+                        4,
+                        h(e, s(s([], l(v(i, t, c)), !1), l(y(r, t, c)), !1), n, o, a)
+                    ];
+                case 1:
+                    return u.sent(), [
+                        2
+                    ];
+            }
+        });
+    });
+}
+function p(e) {
+    return i(this, void 0, void 0, function() {
+        return u(this, function(t) {
+            switch(t.label){
+                case 0:
+                    return [
+                        4,
+                        new Promise(function(t) {
+                            return setTimeout(t, e);
+                        })
+                    ];
+                case 1:
+                    return t.sent(), [
+                        2
+                    ];
+            }
+        });
+    });
+}
+function h(e, t, r, n, o) {
+    return i(this, void 0, void 0, function() {
+        var a, i, s, f, d, h, y, v, b, m, w, g, x;
+        return u(this, function(S) {
+            switch(S.label){
+                case 0:
+                    if (a = t, o) {
+                        for(i = 0, s = 1; s < t.length; s++)if (f = l([
+                            t[s - 1],
+                            t[s]
+                        ], 2), d = f[0], (h = f[1]).length > d.length || "" === h) {
+                            i = s;
+                            break;
+                        }
+                        a = t.slice(i, t.length);
+                    }
+                    S.label = 1;
+                case 1:
+                    S.trys.push([
+                        1,
+                        6,
+                        7,
+                        8
+                    ]), y = c(function(e) {
+                        var t, r, n, o, a, i, l;
+                        return u(this, function(s) {
+                            switch(s.label){
+                                case 0:
+                                    t = function(e) {
+                                        return u(this, function(t) {
+                                            switch(t.label){
+                                                case 0:
+                                                    return [
+                                                        4,
+                                                        {
+                                                            op: function(t) {
+                                                                return requestAnimationFrame(function() {
+                                                                    return t.textContent = e;
+                                                                });
+                                                            },
+                                                            opCode: function(t) {
+                                                                var r = t.textContent || "";
+                                                                return "" === e || r.length > e.length ? "DELETE" : "WRITING";
+                                                            }
+                                                        }
+                                                    ];
+                                                case 1:
+                                                    return t.sent(), [
+                                                        2
+                                                    ];
+                                            }
+                                        });
+                                    }, s.label = 1;
+                                case 1:
+                                    s.trys.push([
+                                        1,
+                                        6,
+                                        7,
+                                        8
+                                    ]), r = c(e), n = r.next(), s.label = 2;
+                                case 2:
+                                    return n.done ? [
+                                        3,
+                                        5
+                                    ] : (o = n.value, [
+                                        5,
+                                        t(o)
+                                    ]);
+                                case 3:
+                                    s.sent(), s.label = 4;
+                                case 4:
+                                    return n = r.next(), [
+                                        3,
+                                        2
+                                    ];
+                                case 5:
+                                    return [
+                                        3,
+                                        8
+                                    ];
+                                case 6:
+                                    return a = s.sent(), i = {
+                                        error: a
+                                    }, [
+                                        3,
+                                        8
+                                    ];
+                                case 7:
+                                    try {
+                                        n && !n.done && (l = r.return) && l.call(r);
+                                    } finally{
+                                        if (i) throw i.error;
+                                    }
+                                    return [
+                                        7
+                                    ];
+                                case 8:
+                                    return [
+                                        2
+                                    ];
+                            }
+                        });
+                    }(a)), v = y.next(), S.label = 2;
+                case 2:
+                    return v.done ? [
+                        3,
+                        5
+                    ] : (b = v.value, m = "WRITING" === b.opCode(e) ? r + r * (Math.random() - .5) : n + n * (Math.random() - .5), b.op(e), [
+                        4,
+                        p(m)
+                    ]);
+                case 3:
+                    S.sent(), S.label = 4;
+                case 4:
+                    return v = y.next(), [
+                        3,
+                        2
+                    ];
+                case 5:
+                    return [
+                        3,
+                        8
+                    ];
+                case 6:
+                    return w = S.sent(), g = {
+                        error: w
+                    }, [
+                        3,
+                        8
+                    ];
+                case 7:
+                    try {
+                        v && !v.done && (x = y.return) && x.call(y);
+                    } finally{
+                        if (g) throw g.error;
+                    }
+                    return [
+                        7
+                    ];
+                case 8:
+                    return [
+                        2
+                    ];
+            }
+        });
+    });
+}
+function y(e, t, r) {
+    var n, o;
+    return void 0 === r && (r = 0), u(this, function(a) {
+        switch(a.label){
+            case 0:
+                n = t(e), o = n.length, a.label = 1;
+            case 1:
+                return r < o ? [
+                    4,
+                    n.slice(0, ++r).join("")
+                ] : [
+                    3,
+                    3
+                ];
+            case 2:
+                return a.sent(), [
+                    3,
+                    1
+                ];
+            case 3:
+                return [
+                    2
+                ];
+        }
+    });
+}
+function v(e, t, r) {
+    var n, o;
+    return void 0 === r && (r = 0), u(this, function(a) {
+        switch(a.label){
+            case 0:
+                n = t(e), o = n.length, a.label = 1;
+            case 1:
+                return o > r ? [
+                    4,
+                    n.slice(0, --o).join("")
+                ] : [
+                    3,
+                    3
+                ];
+            case 2:
+                return a.sent(), [
+                    3,
+                    1
+                ];
+            case 3:
+                return [
+                    2
+                ];
+        }
+    });
+}
+var b = "index-module_type__E-SaG";
+!function(e, t) {
+    void 0 === t && (t = {});
+    var r = t.insertAt;
+    if (e && "undefined" != typeof document) {
+        var n = document.head || document.getElementsByTagName("head")[0], o = document.createElement("style");
+        o.type = "text/css", "top" === r && n.firstChild ? n.insertBefore(o, n.firstChild) : n.appendChild(o), o.styleSheet ? o.styleSheet.cssText = e : o.appendChild(document.createTextNode(e));
+    }
+}(".index-module_type__E-SaG::after {\n  content: '|';\n  animation: index-module_cursor__PQg0P 1.1s infinite step-start;\n}\n\n@keyframes index-module_cursor__PQg0P {\n  50% {\n    opacity: 0;\n  }\n}\n");
+var m = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["memo"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["forwardRef"])(function(o, a) {
+    var i = o.sequence, u = o.repeat, c = o.className, d = o.speed, p = void 0 === d ? 40 : d, h = o.deletionSpeed, y = o.omitDeletionAnimation, v = void 0 !== y && y, m = o.preRenderFirstString, w = void 0 !== m && m, g = o.wrapper, x = void 0 === g ? "span" : g, S = o.splitter, E = void 0 === S ? function(e) {
+        return s([], l(e), !1);
+    } : S, _ = o.cursor, k = void 0 === _ || _, O = o.style, T = function(e, t) {
+        var r = {};
+        for(var n in e)Object.prototype.hasOwnProperty.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
+        if (null != e && "function" == typeof Object.getOwnPropertySymbols) {
+            var o = 0;
+            for(n = Object.getOwnPropertySymbols(e); o < n.length; o++)t.indexOf(n[o]) < 0 && Object.prototype.propertyIsEnumerable.call(e, n[o]) && (r[n[o]] = e[n[o]]);
+        }
+        return r;
+    }(o, [
+        "sequence",
+        "repeat",
+        "className",
+        "speed",
+        "deletionSpeed",
+        "omitDeletionAnimation",
+        "preRenderFirstString",
+        "wrapper",
+        "splitter",
+        "cursor",
+        "style"
+    ]), A = T["aria-label"], C = T["aria-hidden"], N = T.role;
+    h || (h = p);
+    var P = new Array(2).fill(40);
+    [
+        p,
+        h
+    ].forEach(function(e, t) {
+        switch(typeof e){
+            case "number":
+                P[t] = Math.abs(e - 100);
+                break;
+            case "object":
+                var r = e.type, n = e.value;
+                if ("number" != typeof n) break;
+                if ("keyStrokeDelayInMs" === r) P[t] = n;
+        }
+    });
+    var j, I, G, D, M, R, q = P[0], F = P[1], B = function(e, r) {
+        void 0 === r && (r = null);
+        var o = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useRef"])(r);
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useEffect"])(function() {
+            e && ("function" == typeof e ? e(o.current) : e.current = o.current);
+        }, [
+            e
+        ]), o;
+    }(a), Q = b;
+    j = c ? "".concat(k ? Q + " " : "").concat(c) : k ? Q : "", I = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useRef"])(function() {
+        var e, t = i;
+        u === 1 / 0 ? e = f : "number" == typeof u && (t = Array(1 + u).fill(i).flat());
+        var r = e ? s(s([], l(t), !1), [
+            e
+        ], !1) : s([], l(t), !1);
+        return f.apply(void 0, s([
+            B.current,
+            E,
+            q,
+            F,
+            v
+        ], l(r), !1)), function() {
+            B.current;
+        };
+    }), G = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useRef"])(), D = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useRef"])(!1), M = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useRef"])(!1), R = l((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useState"])(0), 2)[1], D.current && (M.current = !0), (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useEffect"])(function() {
+        return D.current || (G.current = I.current(), D.current = !0), R(function(e) {
+            return e + 1;
+        }), function() {
+            M.current && G.current && G.current();
+        };
+    }, []);
+    var W = x, L = w ? i.find(function(e) {
+        return "string" == typeof e;
+    }) || "" : null;
+    return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].createElement(W, {
+        "aria-hidden": C,
+        "aria-label": A,
+        role: N,
+        style: O,
+        className: j,
+        children: A ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].createElement("span", {
+            "aria-hidden": "true",
+            ref: B,
+            children: L
+        }) : L,
+        ref: A ? void 0 : B
+    });
+}), function(e, t) {
+    return !0;
+});
+;
+}}),
+
+};
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__bd01288a._.js.map
