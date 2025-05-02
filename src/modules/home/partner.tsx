@@ -35,11 +35,11 @@ function Partners() {
   const scrollRef = useRef(null);
 
   return (
-    <div className="mx-auto py-8 w-full bg-slate-200 shadow-2xl">
-      <div className="text-center mb-8 text-xl lg:text-2xl font-bold text-[#0E2152]">
+    <div className="mx-auto py-8 w-full bg-slate-200">
+      <div className="text-center mb-4 text-xl lg:text-2xl font-bold text-[#0E2152]">
         <motion.div
           initial={{ opacity: 0 }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
+          transition={{ duration: 2, ease: "easeInOut" }}
           whileInView={{ opacity: 1 }}
           viewport={{ root: scrollRef }}
         >
@@ -47,7 +47,7 @@ function Partners() {
         </motion.div>
       </div>
       <div className="mt-2 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 w-[10%] mx-auto mb-6"></div>
-      <div className="md:w-9/10 mx-auto overflow-hidden w-full shadow-2xl">
+      <div className="md:w-9/10 mx-auto overflow-hidden w-full shadow-2xl hover:shadow-[#064EA4] hover:shadow-lg">
         <Marquee
           className="flex space-x-4"
           aria-label="Brands"

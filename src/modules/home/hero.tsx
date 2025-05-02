@@ -16,7 +16,7 @@ export default function Hero() {
         <div>
           <motion.h1
             initial={{ opacity: 0 }}
-            transition={{ duration: 0.8, ease: "easeInOut" }}
+            transition={{ duration: 1, ease: "easeInOut" }}
             whileInView={{ opacity: 1 }}
             viewport={{ root: scrollRef }}
             className="font-black text-2xl lg:text-5xl text-white leading-tight mb-5"
@@ -24,7 +24,7 @@ export default function Hero() {
             Software Recruitment Specialists <br />
             <motion.span
               initial={{ opacity: 0 }}
-              transition={{ duration: 0.8, ease: "easeInOut" }}
+              transition={{ duration: 2, ease: "easeInOut" }}
               whileInView={{ opacity: 1 }}
               viewport={{ root: scrollRef }}
               className="bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-teal-500 my-5"
@@ -46,23 +46,29 @@ export default function Hero() {
 
         <div className="relative flex justify-center items-center">
           <div className="bg-white rounded-[2rem] overflow-hidden w-full max-w-lg">
-            <motion.div
-              animate={{ x: 100 }}
+            {/* <motion.div
               initial={{ opacity: 0 }}
-              transition={{ duration: 0.8, ease: "easeInOut" }}
+              transition={{ duration: 2, ease: "easeInOut" }}
               whileInView={{ opacity: 1 }}
               viewport={{ root: scrollRef }}
+            > */}{" "}
+            <motion.span
+              initial={{ opacity: 0 }}
+              transition={{ duration: 1.5, ease: "easeInOut" }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ root: scrollRef }}
+              className="bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-teal-500 my-5"
             >
-              {" "}
               <Image
                 src="/images/hero-woman.png"
                 width={1000}
                 height={1000}
                 alt="Woman holding laptop"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transform hover:scale-110 hover:brightness-125"
                 priority
               />
-            </motion.div>
+            </motion.span>
+            {/* </motion.div> */}
           </div>
         </div>
       </div>

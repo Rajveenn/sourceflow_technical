@@ -1015,39 +1015,46 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$typ
 ;
 const Loader = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "fixed inset-0 flex items-center justify-center bg-white/90",
+        className: "fixed inset-0 flex items-center justify-center bg-black z-10",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex flex-col items-center justify-center gap-6 p-6 bg-[#064EA4] w-[400px] rounded-lg shadow-lg",
+            className: "flex flex-col items-center justify-center gap-6 p-6 bg-slate-100 w-[400px] rounded-lg shadow-lg m-10",
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$type$2d$animation$2f$dist$2f$esm$2f$index$2e$es$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TypeAnimation"], {
-                    style: {
-                        whiteSpace: "pre-line",
-                        display: "block"
-                    },
-                    sequence: [
-                        "Software",
-                        1200,
-                        `Software Recruitment`,
-                        1200,
-                        `Software Recruitment Co.`,
-                        1200,
-                        `Software Recruitment Co. is`,
-                        1200,
-                        `Software Recruitment Co. is Loading`,
-                        1200,
-                        ""
-                    ],
-                    repeat: Infinity
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-center",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$type$2d$animation$2f$dist$2f$esm$2f$index$2e$es$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TypeAnimation"], {
+                        style: {
+                            whiteSpace: "pre-line",
+                            display: "block"
+                        },
+                        sequence: [
+                            "Software",
+                            1200,
+                            `Software Recruitment`,
+                            1200,
+                            `Software Recruitment Co.`,
+                            1200,
+                            `Software Recruitment Co. is`,
+                            1200,
+                            `Software Recruitment Co. is Loading`,
+                            1200,
+                            ""
+                        ],
+                        repeat: Infinity
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/loader.tsx",
+                        lineNumber: 9,
+                        columnNumber: 11
+                    }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/loader.tsx",
                     lineNumber: 8,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "h-1 w-32 bg-slate-100 animate-pulse rounded-full"
+                    className: "h-2 w-50 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-pulse rounded-full"
                 }, void 0, false, {
                     fileName: "[project]/src/components/loader.tsx",
-                    lineNumber: 28,
+                    lineNumber: 30,
                     columnNumber: 9
                 }, this)
             ]
