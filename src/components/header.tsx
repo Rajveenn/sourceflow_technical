@@ -5,7 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { BoltIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { TypeAnimation } from "react-type-animation";
-import { FaCaretDown, FaCaretRight } from "react-icons/fa";
+import { FaCaretDown, FaCaretRight, FaFileUpload } from "react-icons/fa";
+import { FaMobileButton } from "react-icons/fa6";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function Header() {
   };
 
   return (
-    <nav className="h-[60px] text-gray-800 p-4 bg-slate-200 shadow-2xl fixed z-10 w-full">
+    <nav className="text-gray-800 p-4 bg-slate-200 shadow-2xl fixed z-10 w-full">
       <div className="container lg:px-8 mx-auto my-auto flex justify-between items-center place-items-center">
         <Link href="/">
           <p className=" text-blue-800 font-bold">
@@ -122,12 +123,12 @@ export default function Header() {
             Resources <FaCaretDown className="text-blue-800" />
           </button>
 
-          <button className="flex items-center gap-1 hover:underline font-bold bg-amber-300 px-3 py-2 text-[14px] rounded-full">
-            Upload CV
+          <button className="flex items-center gap-1 hover:bg-[#F99D76] font-bold bg-[#FCDF69] px-3 py-2 text-[14px] rounded-full">
+            Upload CV <FaFileUpload className="text-black ml-2" />
           </button>
 
-          <button className="flex items-center gap-1 hover:underline font-bold bg-red-300 px-3 py-2 text-[14px] rounded-full">
-            Contact us
+          <button className="flex items-center gap-1 hover:bg-[#FCDF69] font-bold bg-[#F99D76] px-3 py-2 text-[14px] rounded-full">
+            Contact Us <FaMobileButton className="text-black ml-2" />
           </button>
         </div>
       </div>
@@ -208,13 +209,23 @@ export default function Header() {
                 <FaCaretRight className="w-5 h-5 transform transition-transform text-blue-800 " />
               </button>
             </motion.div>
-            <div className="flex flex-row p-2 justify-between items-center">
+            {/* <div className="flex flex-row p-2 justify-between items-center">
               <button className="flex items-center gap-1 hover:underline font-bold bg-amber-300 px-3 py-2 text-[14px] rounded-full">
                 Upload CV
               </button>
 
               <button className="flex items-center gap-1 hover:underline font-bold bg-red-300 px-3 py-2 text-[14px] rounded-full">
                 Contact us
+              </button>
+            </div> */}
+            <div className="flex flex-row p-2 justify-between items-center">
+              <button className="flex items-center text-center px-4 py-2 rounded font-bold bg-amber-300 text-[14px]">
+                Upload CV <FaFileUpload className="text-slate-200 ml-2" />
+              </button>
+            </div>
+            <div className="flex flex-row p-2 justify-between items-center">
+              <button className="flex items-center text-center px-4 py-2 rounded font-bold bg-red-300 text-[14px]">
+                Contact Us <FaMobileButton className="text-slate-200 ml-2" />
               </button>
             </div>
           </div>

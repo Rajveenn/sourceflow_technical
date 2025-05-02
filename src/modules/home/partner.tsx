@@ -1,5 +1,7 @@
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { useRef } from "react";
 
 const logo_data = [
   {
@@ -30,13 +32,22 @@ const logo_data = [
 ];
 
 function Partners() {
+  const scrollRef = useRef(null);
+
   return (
-    <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full bg-slate-200 shadow-2xl">
-      <div className="text-center mb-8 text-[18px] font-bold text-black">
-        Partnered with Esteemed Brands
+    <div className="mx-auto py-8 w-full bg-slate-200 shadow-2xl">
+      <div className="text-center mb-8 text-xl lg:text-2xl font-bold text-[#0E2152]">
+        <motion.div
+          initial={{ opacity: 0 }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ root: scrollRef }}
+        >
+          Partnered with Esteemed Brands
+        </motion.div>
       </div>
       <div className="mt-2 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 w-[10%] mx-auto mb-6"></div>
-      <div className="w-9/10 mx-auto overflow-hidden">
+      <div className="md:w-9/10 mx-auto overflow-hidden w-full shadow-2xl">
         <Marquee
           className="flex space-x-4"
           aria-label="Brands"

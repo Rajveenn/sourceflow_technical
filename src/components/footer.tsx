@@ -1,10 +1,6 @@
 "use client";
-import {
-  FaLinkedinIn,
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
-} from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaTwitter } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Footer() {
@@ -30,10 +26,18 @@ export default function Footer() {
           />
         </h3>
         <div className="flex gap-4 text-2xl">
-          <FaLinkedinIn className="hover:animate-spin cursor-pointer transition" />
-          <FaFacebookF className="hover:animate-spin cursor-pointer transition" />
-          <FaInstagram className="hover:animate-spin cursor-pointer transition" />
-          <FaTwitter className="hover:animate-spin cursor-pointer transition" />
+          <a href="https://www.linkedin.com/in/rajveenz2/" target="_blank">
+            <FaLinkedinIn className="hover:animate-spin cursor-pointer transition" />
+          </a>
+          <a href="https://github.com/Rajveenn" target="_blank">
+            <FaGithub className="hover:animate-spin cursor-pointer transition" />
+          </a>
+          <a href="https://www.linkedin.com/in/rajveenz2/" target="_blank">
+            <FaInstagram className="hover:animate-spin cursor-pointer transition" />
+          </a>
+          <a href="https://www.linkedin.com/in/rajveenz2/" target="_blank">
+            <FaTwitter className="hover:animate-spin cursor-pointer transition" />
+          </a>
         </div>
       </div>
 
@@ -102,7 +106,9 @@ export default function Footer() {
       </div>
 
       <div className="mt-4 flex justify-center items-center text-sm hover:animate-bounce">
-        <div>© 2025 Copyright: Rajveender Singh</div>
+        <a href="https://www.linkedin.com/in/rajveenz2/" target="_blank">
+          © 2025 Copyright: Rajveender Singh
+        </a>
       </div>
     </footer>
   );
